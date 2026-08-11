@@ -1,0 +1,6 @@
+{
+  "name": "Restaurant Management System",
+  "description": "A complete system for restaurant management with multi-role access control, menu management, inventory control, waiter order registration, kitchen display, bill closing, and financial sales reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

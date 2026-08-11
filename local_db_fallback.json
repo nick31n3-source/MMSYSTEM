@@ -1,0 +1,85 @@
+{
+  "mm_restaurant_state": {
+    "global": {
+      "menu": [],
+      "inventory": [],
+      "orders": [],
+      "sales": [],
+      "clientInstances": [],
+      "users": [
+        {
+          "id": "u-nick31",
+          "username": "nick31",
+          "password": "password",
+          "name": "Nick User",
+          "role": "admin",
+          "avatar": "",
+          "cpf": "000.000.000-00",
+          "phone": "(11) 99999-9999",
+          "email": "nick31.N3@gmail.com",
+          "permissions": [
+            "dashboard",
+            "menu",
+            "inventory",
+            "supplies",
+            "waiter",
+            "kitchen",
+            "billing",
+            "employees",
+            "master_dashboard"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "number": 1,
+          "status": "available"
+        },
+        {
+          "number": 2,
+          "status": "available"
+        },
+        {
+          "number": 3,
+          "status": "available"
+        },
+        {
+          "number": 4,
+          "status": "available"
+        },
+        {
+          "number": 5,
+          "status": "available"
+        },
+        {
+          "number": 6,
+          "status": "available"
+        },
+        {
+          "number": 7,
+          "status": "available"
+        },
+        {
+          "number": 8,
+          "status": "available"
+        },
+        {
+          "number": 9,
+          "status": "available"
+        },
+        {
+          "number": 10,
+          "status": "available"
+        },
+        {
+          "number": 11,
+          "status": "available"
+        },
+        {
+          "number": 12,
+          "status": "available"
+        }
+      ]
+    }
+  }
+}
