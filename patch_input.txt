@@ -1,0 +1,31 @@
+                  `}
+                >
+                  <div className="flex justify-between items-start w-full">
+                    <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Mesa</span>
+                    {isOccupied && (
+                      <span className="text-[8px] font-mono bg-amber-900/40 border border-amber-200 text-amber-400 px-1.5 py-0.5 rounded font-extrabold uppercase">
+                        OCUPADA
+                      </span>
+                    )}
+                  </div>
+
+                  <div>
+                    <span className={`text-4xl font-extrabold font-sans tracking-tight block ${isOccupied ? 'text-white' : 'text-slate-200'}`}>
+                      {table.number.toString().padStart(2, '0')}
+                    </span>
+                    <span className="text-[9px] text-slate-500 font-bold uppercase tracking-widest block mt-1">
+                      {isOccupied ? 'Comanda Aberta' : 'Livre'}
+                    </span>
+                  </div>
+
+                  {isOccupied && activeOrder && (
+                    <div className="w-full flex items-center justify-between text-[10px] border-t border-white/10 pt-2 text-slate-400 mt-1">
+                      <span className="truncate max-w-[70px] font-semibold">{activeOrder.waiterName.split(' ')[0]}</span>
+                      <span className="font-mono font-bold text-white">{formatCurrency(activeOrder.totalAmount)}</span>
+                    </div>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
